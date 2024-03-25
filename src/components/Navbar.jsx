@@ -11,8 +11,8 @@ const navContent = [
 
 const Navbar = () => {
   return (
-    <div className='flex px-6 bg-slate-500 text-white justify-between items-center'>
-        <h1>Logo</h1>
+    <div className='flex p-5 bg-slate-500 text-white  justify-between items-center'>
+        <h1 className='h-6 w-6'>Logo</h1>
         <div className='flex'>
             <ul className='flex gap-2'>
                 {navContent.map((content, idx) => (
