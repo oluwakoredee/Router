@@ -10,6 +10,12 @@ import About from './components/About'
 import Services from './components/Services'
 import Career from './components/Career'
 import PreviewJob from './components/PreviewJob'
+import Contact from './components/Contact'
+import Partner from './components/Partner'
+import PreviewCompany from './components/PreviewCompany'
+
+
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +29,9 @@ function App() {
         <Route path='/services' element={<Services/>}/>,
         <Route path='/Career' element={<Career/>}/>,
         <Route path="/career/preview-job/:jobId" element={<PreviewJob/>}/>,
+        <Route path='/contact'element={<Contact/>}/>,
+        <Route path='/partner'element={<Partner/>}/>,
+        <Route path="/partner/preview-company/:companyId" element={<PreviewCompany/>}/>,
       </Routes>
     </div>
   )

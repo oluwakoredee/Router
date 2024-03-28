@@ -7,6 +7,8 @@ const navContent = [
     {name: "About", path: "/about"},
     {name: "Services", path: "/services"},
     {name: "Career", path: "/career"},
+    {name: "Contact", path: "/contact"},
+    {name: "Partner", path: "/partner"},
 ];
 
 const Navbar = () => {
